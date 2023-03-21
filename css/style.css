@@ -1,0 +1,147 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#dark-mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+}
+
+
+
+/* light mode styles */
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+}
+
+.header-light {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* dark mode styles */
+.dark-mode {
+  --background-color: #222;
+  --text-color: #fff;
+}
+
+.header-dark {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section-header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-subheader {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #f2f2f2;
+}
+
+
+header {
+	background-color: #fff;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+main {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
+  padding-top: 50px; /* add some space to the top */
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 24
